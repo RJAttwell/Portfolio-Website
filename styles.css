@@ -1,0 +1,202 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto' ,sans-serif, Arial ;
+}
+
+h1{
+   font-family: 'Fjalla One', 'Roboto', sans-serif ; 
+}
+
+h2{
+    font-family: 'Fjalla One', 'Roboto', sans-serif;
+    display: inline-block;
+    width: 10%;
+    margin-top: 0;
+    position: relative;
+    top: 20px;
+    color: #ffffff;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
+
+hr{
+    color: #707070;
+    width: 150px;
+}
+
+/* CLASS SELECTORS */
+
+
+.NavBar{
+    background-color: #1b1b1b;
+    align-items: center;
+    height: 70px;
+    padding: 10px;
+    
+}
+
+/* CONTAINERS */
+
+.TopContainer{
+    background-color: #FF9F45;
+    height: 797px;
+    padding: 10px;                          /* Puts gap between edge of div and the contents within */
+    position: relative;
+    padding-top: 30px;
+}
+
+.MiddleContainer{
+    background-color: #F7ECDE;
+    height:1200px;
+    padding: 10px;
+
+}
+
+.BottomContainer{
+    background-color: #FFE162;
+    height: 600px;
+    padding: 10px 0;
+}
+
+.ContactMe{
+    height: 200px;
+    padding: 10px;
+    position: sticky;
+    bottom: 0;
+    z-index: -1;
+}
+
+/* IMAGES */
+
+.topchillies{
+    position: absolute;
+    left: 600px;
+    bottom: 350px;
+
+}
+
+.bottomchillies{
+    position: absolute;
+    bottom: 560px;
+    right: 270px;
+}
+
+.computer{
+    position: relative;
+    top: 400px;
+
+}
+
+.circular{
+    border-radius: 130%;
+}
+
+.Logo{
+    position: absolute;
+    width: 3%;
+    left: 20px;
+    top: 14px;
+    height: auto;
+
+}
+
+.Tokyo{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.emailicon{
+    right: 15px;
+    display: inline-block;
+    position: relative;
+    height: 40px;
+    width: 40px;
+}
+
+.githubicon{
+    display: inline-block;
+    position: relative;
+    height: 40px;
+    width: 40px;
+}
+
+.linkedinicon{
+    left: 15px;
+    display: inline-block;
+    position: relative;
+    height: 40px;
+    width: 40px;
+}
+
+.face{
+    position: relative;
+    height: 15%;
+    width: 15%;
+    top: 20px;
+}
+
+.javagif{
+    position: relative;
+    right: 600px;
+    height: 120px;
+    width: 120px;
+
+}
+
+.coming{
+    position: relative;
+    top: 100px;
+}
+
+.python{
+    position: relative;
+    left: 600px;
+    top: 10px;
+}
+
+/* TEXT CLASSES */
+
+.learn{
+    text-decoration: underline;
+}
+
+.topheadertext{
+    color: #FF9F45;
+    font-family: 'Fjalla One', 'Roboto', sans-serif ;
+    display: inline-block;
+    width: 20%;
+    margin-top: 0;
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    font-size: 100px;
+}
+
+.div1text{
+    font-size: xx-large;
+    position: absolute;
+    top: 370px;
+    left: 170px;
+    color: #FF9F45;
+}
+
+.middleheadertext{
+    color: #1b1b1b;
+    font-size: 40px;
+}
+
+.bottomheadertext{
+    color: #1b1b1b;
+    font-size: 50px;
+    position: relative;
+    top: 50px;
+}
+
