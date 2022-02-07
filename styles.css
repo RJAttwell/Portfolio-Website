@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0;
     text-align: center;
@@ -5,10 +9,12 @@ body{
 }
 
 h1{
-   font-family: 'Fjalla One', 'Roboto', sans-serif ; 
+    line-height: 1.15;
+    font-family: 'Fjalla One', 'Roboto', sans-serif ; 
 }
 
 h2{
+    font-weight: normal;
     font-family: 'Fjalla One', 'Roboto', sans-serif;
     display: inline-block;
     width: 10%;
@@ -19,6 +25,10 @@ h2{
 }
 
 h3{
+    font-family: 'Fjalla One', 'Roboto', sans-serif;
+}
+
+p{
     font-family: 'Fjalla One', 'Roboto', sans-serif;
 }
 
@@ -40,6 +50,7 @@ hr{
     align-items: center;
     height: 4.375em;
     padding: 10px;
+    width: 100%;
     
 }
 
@@ -48,6 +59,7 @@ hr{
 .TopContainer{
     background-color: #FF9F45;
     height: 49.8125em;
+    width: 100%;
     padding: 10px;                          /* Puts gap between edge of div and the contents within */
     position: relative;
     padding-top: 30px;
@@ -55,8 +67,10 @@ hr{
 }
 
 .GreetingsContainer{
+    text-align: center;
     position: relative;
     height: 500px;
+    width: 100%;
     padding: 10px;
     background-color: #FF9F45;
     z-index: 4;
@@ -65,21 +79,45 @@ hr{
 .MiddleContainer{
     position: relative;
     background-color: #F7ECDE;
+    width: 100%;
     height:1200px;
     padding: 10px;
     z-index: 3;
 }
 
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+/*.skill-row2{
+    width: 50%;
+}
+
+.skill-row3{
+    width: 50%;
+}
+
+.skill-row4{
+    width: 50%;
+}
+*/
 .BottomContainer{
     position: relative;
-    background-color: #FFE162;
     height: 600px;
-    padding: 10px 0;
+    width: 100%;
+    background-color: #FFE162;
+    text-align: center;
+    line-height: 1.5;
+    padding: 10px;
     z-index: 2;
 }
 
 .ContactMe{
+    margin: auto;
     height: 200px;
+    width: 100%;
     padding: 10px;
     position: sticky;
     bottom: 0;
@@ -88,21 +126,10 @@ hr{
 
 /* IMAGES CLASSES */
 
-.topchillies{
-    position: absolute;
-    left: 600px;
-    bottom: 350px;
-
-}
-
-.bottomchillies{
-    position: absolute;
-    bottom: 560px;
-    right: 270px;
-}
-
 .computer{
     position: relative;
+    height: 12%;
+    width: 12%;
     top: 400px;
 
 }
@@ -114,8 +141,8 @@ hr{
 .Logo{
     position: absolute;
     width: 3%;
-    left: 20px;
-    top: 14px;
+    left: 1.25em;
+    top: 1.7em;
     height: auto;
 
 }
@@ -164,10 +191,8 @@ hr{
 
 .javagif{
     position: relative;
-    bottom: 200px;
-    right: 600px;
-    height: 120px;
-    width: 120px;
+    height: 18%;
+    width: 18%;
 
 }
 
@@ -178,8 +203,6 @@ hr{
 
 .python{
     position: relative;
-    left: 600px;
-    top: 10px;
 }
 
 /* TEXT CLASSES */
@@ -191,20 +214,21 @@ hr{
 .topheadertext{
     color: #FF9F45;
     font-family: 'Fjalla One', 'Roboto', sans-serif ;
-    display: inline-block;
     width: 20%;
-    margin-top: 0;
+    margin: 10px auto 10px auto;
     position: absolute;
     top: 100px;
     left: 150px;
-    font-size: 6.25em;      /* If you use rem (root em) it'll ignore all other font-size and just use the value you put in front of rem */
+    font-size: 6.25rem;      /* If you use rem (root em) it'll ignore all other font-size and just use the value you put in front of rem */
 }
 
 .div1text{
-    font-size: xx-large;
+    font-weight: normal;
+    font-family: 'Fjalla One', 'Roboto', sans-serif;
+    font-size: 2.5rem;      /* One em = 16px */
     position: absolute;
-    top: 370px;
-    left: 170px;
+    top: 320px;
+    left: 75px;
     color: #FF9F45;
 }
 
@@ -221,13 +245,10 @@ hr{
 }
 
 .languagetext{
-    font-size: 6.25em;
-    position: relative;
-    left: 650px;
-}
+    font-weight: normal;
+    font-size: 4.25em;
+    position: relative;}
 
 .languagetext2{
     position: relative;
-    left: 660px;
-    bottom: 80px;
 }
