@@ -18,6 +18,10 @@ h2{
     color: #ffffff;
 }
 
+h3{
+    font-family: 'Fjalla One', 'Roboto', sans-serif;
+}
+
 img{
     height: 200px;
     width: 200px;
@@ -25,7 +29,7 @@ img{
 
 hr{
     color: #707070;
-    width: 150px;
+    width: 9.375em;
 }
 
 /* CLASS SELECTORS */
@@ -34,7 +38,7 @@ hr{
 .NavBar{
     background-color: #1b1b1b;
     align-items: center;
-    height: 70px;
+    height: 4.375em;
     padding: 10px;
     
 }
@@ -43,23 +47,35 @@ hr{
 
 .TopContainer{
     background-color: #FF9F45;
-    height: 797px;
+    height: 49.8125em;
     padding: 10px;                          /* Puts gap between edge of div and the contents within */
     position: relative;
     padding-top: 30px;
+    z-index: 5;
+}
+
+.GreetingsContainer{
+    position: relative;
+    height: 500px;
+    padding: 10px;
+    background-color: #FF9F45;
+    z-index: 4;
 }
 
 .MiddleContainer{
+    position: relative;
     background-color: #F7ECDE;
     height:1200px;
     padding: 10px;
-
+    z-index: 3;
 }
 
 .BottomContainer{
+    position: relative;
     background-color: #FFE162;
     height: 600px;
     padding: 10px 0;
+    z-index: 2;
 }
 
 .ContactMe{
@@ -67,10 +83,10 @@ hr{
     padding: 10px;
     position: sticky;
     bottom: 0;
-    z-index: -1;
+    z-index: 1;
 }
 
-/* IMAGES */
+/* IMAGES CLASSES */
 
 .topchillies{
     position: absolute;
@@ -119,6 +135,7 @@ hr{
     position: relative;
     height: 40px;
     width: 40px;
+    z-index: 1;
 }
 
 .githubicon{
@@ -126,6 +143,7 @@ hr{
     position: relative;
     height: 40px;
     width: 40px;
+    z-index: 1;
 }
 
 .linkedinicon{
@@ -134,6 +152,7 @@ hr{
     position: relative;
     height: 40px;
     width: 40px;
+    z-index: 1;
 }
 
 .face{
@@ -145,6 +164,7 @@ hr{
 
 .javagif{
     position: relative;
+    bottom: 200px;
     right: 600px;
     height: 120px;
     width: 120px;
@@ -177,7 +197,7 @@ hr{
     position: absolute;
     top: 100px;
     left: 150px;
-    font-size: 100px;
+    font-size: 6.25em;      /* If you use rem (root em) it'll ignore all other font-size and just use the value you put in front of rem */
 }
 
 .div1text{
@@ -190,13 +210,24 @@ hr{
 
 .middleheadertext{
     color: #1b1b1b;
-    font-size: 40px;
+    font-size: 2.5em;
 }
 
 .bottomheadertext{
     color: #1b1b1b;
-    font-size: 50px;
+    font-size: 3.125em;
     position: relative;
     top: 50px;
 }
 
+.languagetext{
+    font-size: 6.25em;
+    position: relative;
+    left: 650px;
+}
+
+.languagetext2{
+    position: relative;
+    left: 660px;
+    bottom: 80px;
+}
