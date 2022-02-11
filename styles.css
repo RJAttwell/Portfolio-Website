@@ -74,7 +74,13 @@ hr{
     position: relative;
     padding-top: 30px;
     z-index: 5;
+    background-image: url(https://vastphotos.com/files/uploads/photos/10439/high-resolution-national-park-photo-print-l.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
+
 
 .GreetingsContainer{
     margin: auto;
@@ -105,15 +111,14 @@ hr{
 /*.skill-row2{
     width: 50%;
 }
-
 .skill-row3{
     width: 50%;
 }
-
 .skill-row4{
     width: 50%;
 }
 */
+
 .BottomContainer{
     position: relative;
     height: 600px;
@@ -137,13 +142,13 @@ hr{
 
 /* IMAGES CLASSES */
 
-.computer{
+/*.computer{
     position: relative;
     height: 12%;
     width: 12%;
     top: 400px;
 
-}
+}*/
 
 .circular{
     border-radius: 130%;
@@ -153,18 +158,9 @@ hr{
     position: absolute;
     width: 3%;
     left: 1.25em;
-    top: 1.7em;
+    top: 0.95em;
     height: auto;
 
-}
-
-.Tokyo{
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
 }
 
 /* Contact Section Images */
@@ -252,8 +248,9 @@ hr{
 }*/
 
 .coming{
-    position: relative;
+    position: absolute;
     top: 100px;
+    padding-top: 50px ;
 }
 
 
@@ -296,6 +293,7 @@ hr{
     font-size: 3.125em;
     position: relative;
     top: 50px;
+    padding-bottom: 80px;
 }
 
 .languagetext{

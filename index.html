@@ -6,13 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RJAttwell</title>
-
     <!--My CSS file-->
     <link rel="stylesheet" href="ProjectCSS/styles.css">
-    <link rel="icon" href="favicon.ico">                                        <!--Allows you to add a favicon to your site-->
+    <link rel="icon" href="favicon.ico">
+    <!--Allows you to add a favicon to your site-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Press+Start+2P&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Press+Start+2P&family=Roboto&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -20,25 +21,24 @@
     <!--Divs do nothing unless you use CSS with them-->
 
     <div class="NavBar">
-            <h2>Skills</h2> 
-            <h2>Projects</h2>
-            <h2>Contact</h2>
-            <a href="https://docs.google.com/document/d/1DQt6QRXNBawYAFKyNqgqedWLOOUxOz5n3qigcWpWaDI/edit?usp=sharing"><h2>Resume</h2></a>
-
+        <a href="#skills"><h2>Skills</h2></a>
+        <a href="#coming"><h2>Projects</h2></a>
+        <a href="ContagePage.html"><h2>Contact</h2></a>
+        <a href="https://docs.google.com/document/d/1DQt6QRXNBawYAFKyNqgqedWLOOUxOz5n3qigcWpWaDI/edit?usp=sharing"><h2>Resume</h2></a>
         <img class="Logo" src="Images/Logo.png" alt="Site Logo">
     </div>
 
 
     <div class="TopContainer">
-       <center>
-        <img class = Tokyo src="Images/tokyo-sat.png" alt="Tokyo">
-        <!--<img class = "topchillies" src="Images/chillies.png" alt="Top Chillies"> -->
-        <h1 class="topheadertext">I'm Richard</h1>
-        <p class="div1text">I'm <span class="learn">learning</span> programming</p>      <!--Span allows us to change a part of the text inside a paragraph. It is an inline display element-->
-        <img class="computer circular" src="Images/computer.png" alt="Computer">
-       <!--<img class ="bottomchillies" src="Images/chillies.png" alt="Bottom Chillies">-->
-    
-    </center>
+        <center>
+            <!--<img class = "topchillies" src="Images/chillies.png" alt="Top Chillies"> -->
+            <h1 class="topheadertext">I'm Richard</h1>
+            <p class="div1text">I'm <span class="learn">learning</span> programming</p>
+            <!--Span allows us to change a part of the text inside a paragraph. It is an inline display element-->
+            <!--<img class="computer circular" src="Images/computer.png" alt="Computer">
+            <!--<img class ="bottomchillies" src="Images/chillies.png" alt="Bottom Chillies">-->
+
+        </center>
     </div>
 
     <div class="GreetingsContainer">
@@ -48,23 +48,24 @@
             <center>
                 <h2 class="middleheadertext">Hello.</h2>
             </center>
-            <p class="greetingtext">I'm an Engineer looking to improve my programming skills and build cool projects.</p>
+            <p class="greetingtext">I'm an Engineer looking to improve my programming skills and build cool projects.
+            </p>
         </div>
         <br>
         <br>
         <hr>
     </div>
-  
+
 
     <div class="MiddleContainer">
-        <div class="skills">
+        <div id="skills">
             <h2 class="middleheadertext">My Skills</h2>
 
             <div class="skill-row">
                 <img class="javagif" src="Images/javascript.webp" alt="Javascript">
-                <img class="cssgif" src="Images/css.gif" alt="CSS Gif">
-                <img class="htmlgif" src="Images/html.gif" alt="HTML Gif">
-                <h3 class = "languagetext">Languages</h3>
+                <img class="cssgif" src="https://i.giphy.com/media/fsEaZldNC8A1PJ3mwp/giphy.webp" alt="CSS Gif">
+                <img class="htmlgif" src="https://i.giphy.com/media/XAxylRMCdpbEWUAvr8/giphy.webp" alt="HTML Gif">
+                <h3 class="languagetext">Languages</h3>
                 <p class="languagetext2">HTML, CSS, Javascript</p>
                 <br>
                 <br>
@@ -73,8 +74,8 @@
             </div>
 
             <div class="skill-row">
-                <img class="reactgif" src="Images/react.gif" alt="react gif">
-                <img class="bootstrapgif" src="Images/bootstrap.gif" alt="bootstrap gif">
+                <img class="reactgif" src="https://i.giphy.com/media/eNAsjO55tPbgaor7ma/giphy.webp" alt="react gif">
+                <img class="bootstrapgif" src="https://i.giphy.com/media/Sr8xDpMwVKOHUWDVRD/giphy.webp" alt="bootstrap gif">
                 <!--<img class="nodegif" src="Images/node.gif" alt="node.js gif">-->
                 <h3 class="frameworktext">Frameworks</h3>
                 <p>Bootstrap, React</p>
@@ -95,16 +96,21 @@
 
 
     <div class="BottomContainer">
-        <center><h1 class="bottomheadertext" >Projects</h1></center>
-        <img class="coming" src="Images/coming-soon.jpg" alt="Coming soon sign">
+        <center>
+            <h1 class="bottomheadertext">Projects</h1>
+        </center>
+        <img id="coming" src="Images/coming-soon.jpg" alt="Coming soon sign">
     </div>
 
 
     <div class="ContactMe">
         <h3>Get In Touch</h3>
-        <a class="btn" href="mailto:richardjattwell@gmail.com"><img class= "emailicon" src="Images/email.png" alt="emailicon"></a>
-        <a class="btn" href="https://github.com/RJAttwell"><img class="githubicon" src="Images/githubicon.png" alt="Github Icon"></a>
-        <a class="btn" href="https://www.linkedin.com/in/richard-attwell-710570157/"><img class="linkedinicon" src="Images/linkedin.png" alt="LinkedIn Icon"></a>
+        <a class="btn" href="mailto:richardjattwell@gmail.com"><img class="emailicon" src="Images/email.png"
+                alt="emailicon"></a>
+        <a class="btn" href="https://github.com/RJAttwell"><img class="githubicon" src="Images/githubicon.png"
+                alt="Github Icon"></a>
+        <a class="btn" href="https://www.linkedin.com/in/richard-attwell-710570157/"><img class="linkedinicon"
+                src="Images/linkedin.png" alt="LinkedIn Icon"></a>
         <br>
         <hr class="contact-hr">
         <br>
