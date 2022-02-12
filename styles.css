@@ -54,7 +54,6 @@ hr{
     height: 4.375em;
     padding: 10px;
     width: 100%;
-    
 }
 
 .contact-hr{
@@ -74,7 +73,7 @@ hr{
     position: relative;
     padding-top: 30px;
     z-index: 5;
-    background-image: url(https://vastphotos.com/files/uploads/photos/10439/high-resolution-national-park-photo-print-l.jpg);
+    background-image: url(https://vastphotos.com/files/uploads/photos/10447/golden-gate-bridge-in-fog-l.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -207,8 +206,7 @@ hr{
     height: 17%;
     float: left;
     margin-right: 30px;
-
-
+    padding-top: 10px;
 }
 
 .cssgif{
@@ -238,6 +236,17 @@ hr{
 
 .vscgif{
     float: left;
+    margin-right: 33px;
+    padding-top: 20px;
+    height: 16%;
+    width: 16%;
+}
+
+.gitgif{
+    padding-top: 50px;
+    float: left;
+    height: 24%;
+    width: 24%;
 }
 
 /*.nodegif{
@@ -261,25 +270,24 @@ hr{
 }
 
 .topheadertext{
-    color: #FF9F45;
-
+    color: #1b1b1b;
     font-family: 'Fjalla One', 'Roboto', sans-serif ;
     width: 20%;
     margin: 10px auto 10px auto;
     position: absolute;
     top: 100px;
     left: 150px;
-    font-size: 6.25rem;      /* If you use rem (root em) it'll ignore all other font-size and just use the value you put in front of rem */
+    font-size: 9.25rem;      /* If you use rem (root em) it'll ignore all other font-size and just use the value you put in front of rem */
 }
 
 .div1text{
     font-weight: normal;
     font-family: 'Fjalla One', 'Roboto', sans-serif;
-    font-size: 2.5rem;      /* One em = 16px */
+    font-size: 3.5rem;      /* One em = 16px */
     position: absolute;
-    top: 320px;
-    left: 90px;
-    color: #FF9F45;
+    top: 400px;
+    left: 157px;
+    color: #1b1b1b;
 }
 
 .middleheadertext{
