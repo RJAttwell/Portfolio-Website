@@ -51,7 +51,8 @@ hr{
     top: 0;
     background-color: #1b1b1b;
     align-items: center;
-    height: 4.375em;
+    height: 3.475em;
+    line-height: 17px;
     padding: 10px;
     width: 100%;
 }
@@ -286,6 +287,11 @@ hr{
     top: 100px;
     left: 150px;
     font-size: 9.25rem;      /* If you use rem (root em) it'll ignore all other font-size and just use the value you put in front of rem */
+    text-shadow:
+    -2px -2px 0 rgb(240, 117, 16),
+    2px -2px 0 rgb(240, 117, 16),
+    -2px 2px 0 rgb(240, 117, 16),
+    2px 2px 0 rgb(240, 117, 16);  
 }
 
 .div1text{
@@ -296,6 +302,11 @@ hr{
     top: 400px;
     left: 157px;
     color: #1b1b1b;
+    text-shadow:
+    -1px -1px 0 rgb(240, 117, 16),
+    1px -1px 0 rgb(240, 117, 16),
+    -1px 1px 0 rgb(240, 117, 16),
+    1px 1px 0 rgb(240, 117, 16); 
 }
 
 .middleheadertext{
