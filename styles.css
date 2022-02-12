@@ -153,14 +153,14 @@ hr{
     border-radius: 130%;
 }
 
-.Logo{
+/*.Logo{
     position: absolute;
     width: 3%;
     left: 1.25em;
     top: 0.95em;
     height: auto;
 
-}
+}*/
 
 /* Contact Section Images */
 
@@ -206,7 +206,7 @@ hr{
     height: 17%;
     float: left;
     margin-right: 30px;
-    padding-top: 10px;
+    padding-top: 38px;
 }
 
 .cssgif{
@@ -237,16 +237,24 @@ hr{
 .vscgif{
     float: left;
     margin-right: 33px;
-    padding-top: 20px;
-    height: 16%;
-    width: 16%;
+    padding-top: 30px;
+    height: 15%;
+    width: 15%;
 }
 
 .gitgif{
-    padding-top: 50px;
+    padding-top: 60px;
+    margin-right: 33px;
     float: left;
-    height: 24%;
-    width: 24%;
+    height: 22%;
+    width: 22%;
+}
+
+.githubgif{
+    padding-top: 20px;
+    float: left;
+    height: 16%;
+    width: 16%;
 }
 
 /*.nodegif{
