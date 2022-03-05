@@ -1,0 +1,300 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+}
+
+/* hr.hrskill{
+    border: none;
+    border-color: none!important;
+    width: 20%!important;
+    border-top: 10px dotted rgb(255, 255, 255)!important;
+    border-width: 8px;
+} */
+
+hr,
+.hrgreet {
+  margin: 1.2% auto;
+  width: 50px;
+  border-top: 10px dotted #1b1b1b;
+  border-width: 8px;
+  opacity: 1;
+  background: transparent;
+}
+
+h2,
+h3 {
+  font-family: "Fjalla One", sans-serif;
+  padding-top: 2%;
+}
+
+p {
+  font-family: "Fjalla One", sans-serif;
+}
+
+/* NAV BAR */
+
+#nav-bar{
+  text-align: center;
+}
+
+#navbar{
+    background: none;
+}
+
+/* Title Section */
+
+#title {
+  padding: 30% 15% 7%;
+  background-image: url(https://vastphotos.com/files/uploads/photos/10447/golden-gate-bridge-in-fog-l.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: 5;
+}
+
+.topheadertext {
+  color: #1b1b1b;
+  width: 20%;
+  position: relative;
+  bottom: 500px;
+  right: 300px;
+  font-size: 9.25rem; /* If you use rem (root em) it'll ignore all other font-size and just use the value you put in front of rem */
+  text-shadow: -2px -2px 0 rgb(240, 117, 16), 2px -2px 0 rgb(240, 117, 16),
+    -2px 2px 0 rgb(240, 117, 16), 2px 2px 0 rgb(240, 117, 16);
+}
+
+.div1text{
+  text-shadow: -1px -1px 0 rgb(240, 117, 16), 1px -1px 0 rgb(240, 117, 16),
+    -1px 1px 0 rgb(240, 117, 16), 1px 1px 0 rgb(240, 117, 16);
+  
+  font-size: 3em;
+
+  position: relative;
+  bottom: 400px;
+  right: 200px;
+}
+
+/* Greetings Section */
+
+#info {
+  background-color: #ff9f45;
+  padding: 5% 12%;
+  text-align: center;
+}
+
+.greetingtext {
+  top: 30px;
+  font-weight: normal;
+}
+
+/* Skills Section */
+
+#skills {
+  padding: 3% 15% 4%;
+  background-color: #e9dac1;
+}
+
+.middleheadertext {
+  color: #1b1b1b;
+  font-size: 2.5em;
+}
+
+.skilltext{
+  padding-bottom: 2%;
+}
+
+.languagetext,
+.tooltext {
+  font-weight: normal;
+  font-size: 4.25em;
+  position: relative;
+  top: 50px;
+  text-align: right;
+}
+
+.frameworktext {
+  font-weight: normal;
+  font-size: 4.25em;
+  position: relative;
+  top: 50px;
+  text-align: left;
+}
+
+.languagetext2,
+.tooltext2 {
+  text-align: right;
+  position: relative;
+  top: 50px;
+}
+
+.frameworktext2 {
+  text-align: left;
+  position: relative;
+  top: 50px;
+  padding-left: 0.26%;
+  padding-bottom: 50px;
+}
+
+/* Projects Section */
+
+#projects {
+  background-color: #ffe162;
+  padding: 7% 15%;
+}
+
+.bottomheadertext {
+  font-family: "Fjalla One", "Roboto", sans-serif;
+  font-size: 4em;
+}
+
+.coming:hover {
+  transform: scale(1.09);
+}
+
+/* Contact Me Section */
+
+#ContactMe {
+  padding: 1.5% 10%;
+  margin: auto;
+}
+
+.copyright-text {
+  color: #acacac;
+}
+
+.footer-icon {
+  font-size: 35px;
+}
+
+.footer-icon:hover {
+  color: #acacac;
+  transform: scale(1.25);
+}
+
+/* IMAGE CLASSES */
+
+.face {
+  top: 40px;
+  border-radius: 100%;
+  border-style: outset;
+  border-color: #1b1b1b;
+  width: 20%;
+}
+
+.face:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+.Logo {
+  width: 20%;
+  position: relative;
+  right: 60px;
+}
+
+.coming {
+  width: 20%;
+  padding-top: 5%;
+}
+
+.javagif {
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+  padding-top: 2.8%;
+}
+
+.cssgif,
+.htmlgif {
+  width: 15%;
+  float: left;
+}
+
+.bootstrapgif {
+  width: 20%;
+  float: right;
+  margin-right: 20px;
+}
+
+.reactgif {
+  width: 20%;
+  float: right;
+}
+
+.vscgif {
+  float: left;
+  margin-right: 33px;
+  padding-top: 30px;
+  width: 16%;
+}
+
+.gitgif {
+  padding-top: 60px;
+  margin-right: 33px;
+  float: left;
+  width: 20%;
+}
+
+.githubgif {
+  padding-top: 20px;
+  float: left;
+  width: 16%;
+}
+
+/* Code that runs when our viewpoint is 1028px or smaller */
+@media (max-width: 1028px) {
+  #skills {
+    text-align: center;
+  }
+
+  .skilltext{
+    font-size: 2.5em;
+  }
+
+  .languagetext, .languagetext2, .tooltext, .tooltext2{
+    float: none;
+    text-align: center;
+    }
+
+  .frameworktext, .frameworktext2{
+      float: none;
+      text-align: center;
+      position: relative;
+      top: 0.1px;
+    }
+
+  .javagif{
+    float: none;
+    margin-right: 9px;
+  }
+
+  .cssgif, .htmlgif{
+    float: none;
+  }
+
+  .bootstrapgif, .reactgif, .vscgif, .gitgif, .githubgif{
+    float: none;
+  }
+
+  .bottomheadertext{
+    font-size: 2.5em;
+  }
+
+  #title{
+    text-align: center;
+  }
+
+  .topheadertext{
+    font-size: 7em;
+    width: 100%;
+    position: relative;
+    top: 30px;
+    right: 50px;
+    margin: auto;
+  }
+
+
+}
