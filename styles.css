@@ -65,28 +65,31 @@ p {
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
+  text-align: center;
 }
 
 .topheadertext {
-  color: #1b1b1b;
+  color: #d36702;
+  text-shadow: -1px -1px 0 rgb(34, 34, 34), 1px -1px 0 rgb(34, 34, 34),
+    -1px 1px 0 rgb(34, 34, 34), 1px 1px 0 rgb(34, 34, 34);
+  font-family: "Fjalla One", sans-serif;
   width: 20%;
   position: relative;
   bottom: 500px;
   right: 300px;
-  font-size: 9.25rem; /* If you use rem (root em) it'll ignore all other font-size and just use the value you put in front of rem */
-  text-shadow: -2px -2px 0 rgb(240, 117, 16), 2px -2px 0 rgb(240, 117, 16),
-    -2px 2px 0 rgb(240, 117, 16), 2px 2px 0 rgb(240, 117, 16);
+  font-size: 8.25em; /* If you use rem (root em) it'll ignore all other font-size and just use the value you put in front of rem */
 }
 
 .div1text{
-  text-shadow: -1px -1px 0 rgb(240, 117, 16), 1px -1px 0 rgb(240, 117, 16),
-    -1px 1px 0 rgb(240, 117, 16), 1px 1px 0 rgb(240, 117, 16);
+  text-shadow: -1px -1px 0 rgb(34, 34, 34), 1px -1px 0 rgb(34, 34, 34),
+    -1px 1px 0 rgb(34, 34, 34), 1px 1px 0 rgb(34, 34, 34);
   
   font-size: 3em;
-
+  font-family: "Fjalla One", sans-serif;
   position: relative;
-  bottom: 400px;
-  right: 200px;
+  bottom: 505px;
+  right: 105px;
+  color: #d36702;
 }
 
 /* Greetings Section */
@@ -270,14 +273,13 @@ p {
     width: 100%;
     position: relative;
     bottom: 60px;
-    right: 50px;
+    right: 10px;
     margin: auto;
   }
 
   .div1text{
-    text-align: center;
     bottom: 40px;
-    right: 60px;
+    right: 0.5px;
     position: relative;
   }
 
