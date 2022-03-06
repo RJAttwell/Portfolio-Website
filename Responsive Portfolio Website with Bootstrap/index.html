@@ -15,7 +15,7 @@
     />
 
     <!--Add CSS to project-->
-    <link rel="stylesheet" href="portfoliocss/styles.css" />
+    <link rel="stylesheet" href="./styles.css" />
 
     <!-- Font Awesome Icons -->
     <script
@@ -90,7 +90,7 @@
 
     <section id="info">
       <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12">
+        <div class="col-lg-12 col-md-12 col-sm-12 .no-gutters">
           <img class="face" src="Images/face.jpg" alt="MY FACE" />
           <br />
           <center>
@@ -102,7 +102,7 @@
             developer
           </p>
         </div>
-        <hr class="hrgreet">
+        <!-- <hr class="hrgreet" /> -->
         <br />
         <br />
         <!-- <hr align="center" class="hr-styled" /> -->
@@ -111,10 +111,9 @@
 
     <section id="skills">
       <h2 class="skilltext">My Skills</h2>
-      <div class="row">
-        <div class="col-lg-12">
-
-          <div class="col-lg-12">
+      <div class="container">
+        <div class="row">
+          <div class="feature-box col-lg-4 col-md-12">
             <img
               class="javagif"
               src="https://i.giphy.com/media/XH9wwXfUXu91wAJwN5/giphy.webp"
@@ -130,74 +129,62 @@
               src="https://i.giphy.com/media/XAxylRMCdpbEWUAvr8/giphy.webp"
               alt="HTML Gif"
             />
+
             <h3 class="languagetext">Languages</h3>
             <p class="languagetext2">HTML, CSS, Javascript</p>
-            
-            <br />
-            <br />
-            <br />
             <hr />
-            <br />
-            <br />
           </div>
 
-          <div class="row">
-            <div class="col-lg-6">
-              <h3 class="frameworktext">Frameworks</h3>
-              <p class="frameworktext2">Bootstrap, React</p>
-            </div>
+          <div class="feature-box col-lg-4">
+            <img
+              class="reactgif"
+              src="https://i.giphy.com/media/eNAsjO55tPbgaor7ma/giphy.webp"
+              alt="react gif"
+            />
+            <img
+              class="bootstrapgif"
+              src="https://i.giphy.com/media/Sr8xDpMwVKOHUWDVRD/giphy.webp"
+              alt="bootstrap gif"
+            />
+            <img
+              class="angulargif"
+              src="https://media4.giphy.com/media/XEDIHHp3i8bVoEdxd7/giphy.gif?cid=ecf05e47yx1itm0jd1wmtg5kof5gjsarqopyg19mqcq3hgs2&rid=giphy.gif&ct=s"
+              alt="angular gif"
+            />
 
-            <div class="col-lg-6">
-              <br />
-              <br />
-              <img
-                class="reactgif"
-                src="https://i.giphy.com/media/eNAsjO55tPbgaor7ma/giphy.webp"
-                alt="react gif"
-              />
-              <img
-                class="bootstrapgif"
-                src="https://i.giphy.com/media/Sr8xDpMwVKOHUWDVRD/giphy.webp"
-                alt="bootstrap gif"
-              />
-              <!--<img class="nodegif" src="Images/node.gif" alt="node.js gif">-->
-
-              <br />
-              <br />
-            </div>
+            <br />
+            <br />
+            <h3 class="frameworktext">Frameworks and Libraries</h3>
+            <p class="frameworktext2">Bootstrap, React, Angular</p>
+            <hr />
           </div>
 
-          <hr />
+          <div class="feature-box col-lg-4 col-md-12">
+            <br />
+            <br />
+            <img
+              class="vscgif"
+              src="https://i.giphy.com/media/IdyAQJVN2kVPNUrojM/giphy.webp"
+              alt="vsc gif"
+            />
+            <img
+              class="gitgif"
+              src="https://i.giphy.com/media/kH1DBkPNyZPOk0BxrM/giphy.webp"
+              alt="Git gif"
+            />
+            <img
+              class="githubgif"
+              src="https://i.giphy.com/media/KzJkzjggfGN5Py6nkT/giphy.webp"
+              alt="Github gif"
+            />
 
-          <div class="row">
-            <div class="feature-box col-lg-6">
-              <br />
-              <br />
-              <img
-                class="vscgif"
-                src="https://i.giphy.com/media/IdyAQJVN2kVPNUrojM/giphy.webp"
-                alt="vsc gif"
-              />
-              <img
-                class="gitgif"
-                src="https://i.giphy.com/media/kH1DBkPNyZPOk0BxrM/giphy.webp"
-                alt="Git gif"
-              />
-              <img
-                class="githubgif"
-                src="https://i.giphy.com/media/KzJkzjggfGN5Py6nkT/giphy.webp"
-                alt="Github gif"
-              />
-            </div>
-
-            <div class="feature-box col-lg-6">
-              <h3 class="tooltext">Tools</h3>
-              <p class="tooltext2">Visual Studio Code, Git, Github</p>
-            </div>
+            <h3 class="tooltext">Tools</h3>
+            <p class="tooltext2">Visual Studio Code, Git, Github</p>
+            <hr />
           </div>
         </div>
-        <br />
       </div>
+      <br />
     </section>
 
     <section id="projects">
@@ -230,7 +217,7 @@
       ></a>
 
       <br />
-      <hr />
+      <hr class="hrcontact" />
       <br />
       <p class="copyright-text">&copy; Copyright RJAttwell.io 2022</p>
     </section>

@@ -7,22 +7,34 @@ body {
   text-align: center;
 }
 
-/* hr.hrskill{
-    border: none;
-    border-color: none!important;
-    width: 20%!important;
-    border-top: 10px dotted rgb(255, 255, 255)!important;
-    border-width: 8px;
+hr{
+  margin: 5% auto;
+  width: 50px;
+  border-top: 10px dotted #1b1b1b;
+  border-width: 8px;
+  opacity: 1;
+  background: transparent;
+  display: none;
+}
+
+/* .hrgreet{
+  margin: 1.2% 0% 5% 0%;
+  width: 50px;
+  border-top: 10px dotted #1b1b1b;
+  border-width: 8px;
+  opacity: 1;
+  background: transparent;
+  display: initial;
 } */
 
-hr,
-.hrgreet {
+.hrcontact{
   margin: 1.2% auto;
   width: 50px;
   border-top: 10px dotted #1b1b1b;
   border-width: 8px;
   opacity: 1;
   background: transparent;
+  display: block;
 }
 
 h2,
@@ -49,10 +61,10 @@ p {
 
 #title {
   padding: 30% 15% 7%;
-  background-image: url(https://vastphotos.com/files/uploads/photos/10447/golden-gate-bridge-in-fog-l.jpg);
+  background-image: url(https://vastphotos.com/files/uploads/photos/10301/night-landscape-photo-l.jpg);
   background-repeat: no-repeat;
+  background-position: center center;
   background-attachment: fixed;
-  z-index: 5;
 }
 
 .topheadertext {
@@ -81,7 +93,7 @@ p {
 
 #info {
   background-color: #ff9f45;
-  padding: 5% 12%;
+  padding: 3% 12% 3%;
   text-align: center;
 }
 
@@ -106,36 +118,30 @@ p {
   padding-bottom: 2%;
 }
 
-.languagetext,
+.languagetext{
+  font-weight: normal;
+  font-size: 2.25em;
+  margin-top: 25px;
+}
+
 .tooltext {
   font-weight: normal;
-  font-size: 4.25em;
+  font-size: 2.25em;
+  text-align: center;
   position: relative;
-  top: 50px;
-  text-align: right;
+  bottom: 4px;
 }
 
-.frameworktext {
+.tooltext2{
   font-weight: normal;
-  font-size: 4.25em;
+  text-align: center;
   position: relative;
-  top: 50px;
-  text-align: left;
+  bottom: 5px;
 }
 
-.languagetext2,
-.tooltext2 {
-  text-align: right;
-  position: relative;
-  top: 50px;
-}
-
-.frameworktext2 {
-  text-align: left;
-  position: relative;
-  top: 50px;
-  padding-left: 0.26%;
-  padding-bottom: 50px;
+.frameworktext{
+  font-weight: normal;
+  font-size: 2.25em;
 }
 
 /* Projects Section */
@@ -200,101 +206,106 @@ p {
   padding-top: 5%;
 }
 
+/* Languages Images */
+
 .javagif {
-  width: 15%;
-  float: left;
-  margin-right: 30px;
-  padding-top: 2.8%;
+  width: 20%;
+  margin-top: 10px;
+  margin-right: 7px;
 }
 
 .cssgif,
 .htmlgif {
-  width: 15%;
-  float: left;
+  width: 20%;
 }
+
+/* Frameworks/Libraries Images  */
 
 .bootstrapgif {
   width: 20%;
-  float: right;
-  margin-right: 20px;
+  margin-right: 15px;
 }
 
-.reactgif {
+.reactgif{
   width: 20%;
-  float: right;
+  margin-right: 15px;
 }
 
+.angulargif{
+  width: 19%;
+}
+
+/* Tools Images  */
 .vscgif {
-  float: left;
   margin-right: 33px;
-  padding-top: 30px;
   width: 16%;
+  position: relative;
+  bottom: 35px;
 }
 
 .gitgif {
-  padding-top: 60px;
-  margin-right: 33px;
-  float: left;
-  width: 20%;
+  margin-right: 30px;
+  width: 23%;
+  position: relative;
+  bottom: 35px;
 }
 
 .githubgif {
-  padding-top: 20px;
-  float: left;
   width: 16%;
+  position: relative;
+  bottom: 35px;
 }
 
 /* Code that runs when our viewpoint is 1028px or smaller */
-@media (max-width: 1028px) {
-  #skills {
-    text-align: center;
-  }
-
-  .skilltext{
-    font-size: 2.5em;
-  }
-
-  .languagetext, .languagetext2, .tooltext, .tooltext2{
-    float: none;
-    text-align: center;
-    }
-
-  .frameworktext, .frameworktext2{
-      float: none;
-      text-align: center;
-      position: relative;
-      top: 0.1px;
-    }
-
-  .javagif{
-    float: none;
-    margin-right: 9px;
-  }
-
-  .cssgif, .htmlgif{
-    float: none;
-  }
-
-  .bootstrapgif, .reactgif, .vscgif, .gitgif, .githubgif{
-    float: none;
-  }
-
-  .bottomheadertext{
-    font-size: 2.5em;
-  }
-
+@media (max-width: 1080px) {
+  
   #title{
     text-align: center;
+    background-image: url(https://vastphotos.com/files/uploads/photos/10300/high-resolution-night-landscape-photo-l.jpg) ;
+    background-size: cover;
   }
 
   .topheadertext{
     font-size: 7em;
     width: 100%;
     position: relative;
-    top: 30px;
+    bottom: 60px;
     right: 50px;
     margin: auto;
   }
 
+  .div1text{
+    text-align: center;
+    bottom: 40px;
+    right: 60px;
+    position: relative;
+  }
 
+  hr{
+    display: block;
+  }
+
+  .bottomheadertext{
+    font-size: 2em;
+  }
+
+}
+
+@Media (max-width: 450px){
+  #title{
+    text-align: center;
+    background-image: url(https://vastphotos.com/files/uploads/photos/10300/high-resolution-night-landscape-photo-l.jpg) ;
+    background-size: cover;
+    background-position: 500px 50px;
+}
+
+  hr{
+    display: block;
+  }
+}
+
+@media (max-width: 1020px) and (min-width: 1000px){
+    #skills{
+    padding: 3% 5% 3%;
+  }
 }
