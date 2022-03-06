@@ -1,120 +1,225 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+  <head>
+    <meta charset="utf-8" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Title of website-->
     <title>RJAttwell</title>
-    <!--My CSS file-->
-    <link rel="stylesheet" href="./styles.css">
-    <link rel="icon" href="favicon.ico">
-    <!--Allows you to add a favicon to your site-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Press+Start+2P&family=Roboto&display=swap" rel="stylesheet">
-</head>
 
-<body>
-    <!--HTML Divs. Allows us to divide content up on our website-->
-    <!--Divs do nothing unless you use CSS with them-->
+    <!--Add bootstrap to project-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
 
-    <div class="NavBar">
-        <a href="#skills"><h2>Skills</h2></a>
-        <a href="#Projects"><h2>Projects</h2></a>
-        <a href="https://docs.google.com/document/d/1DQt6QRXNBawYAFKyNqgqedWLOOUxOz5n3qigcWpWaDI/edit?usp=sharing" target="_blank" rel="noopener noreferrer"><h2>Resume</h2></a>
-        <!--<img class="Logo" src="Images/Logo.png" alt="Site Logo">-->
-    </div>
+    <!--Add CSS to project-->
+    <link rel="stylesheet" href="./styles.css" />
 
+    <!-- Font Awesome Icons -->
+    <script
+      src="https://kit.fontawesome.com/ddd9b0d572.js"
+      crossorigin="anonymous"
+    ></script>
 
-    <div class="TopContainer">
-        <center>
-            <!--<img class = "topchillies" src="Images/chillies.png" alt="Top Chillies"> -->
+    <!--Add javascript plugin to project-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&family=Montserrat:wght@600&family=Press+Start+2P&family=Roboto&family=Rowdies:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <section id="nav-bar">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img
+              class="Logo"
+              src="Images/Logo.png"
+              alt="Orange square with RJ inside"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav mx-auto">
+              <a class="nav-link active" aria-current="page" href="#skills"
+                >Skills</a
+              >
+              <a class="nav-link" href="#projects">Projects</a>
+              <a class="nav-link" href="#">Resume</a>
+              <!-- <a class="nav-link disabled">Disabled</a> -->
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <section id="title">
+      <div class="row">
+        <div class="col-lg-6">
+          <center>
             <h1 class="topheadertext">I'm Richard</h1>
-            <p class="div1text">I'm <span class="learn">learning</span> programming</p>
+            <p class="div1text">
+              I'm <span class="learn">learning</span> programming
+            </p>
             <!--Span allows us to change a part of the text inside a paragraph. It is an inline display element-->
-            
-            <!--<img class="computer circular" src="Images/computer.png" alt="Computer">-->
-        </center>
-    </div>
-
-    <div class="GreetingsContainer">
-        <div class="profile">
-            <img class="face circular" src="Images/face.jpg" alt="MY FACE">
-            <br>
-            <center>
-                <h2 class="middleheadertext">Hello.</h2>
-            </center>
-            <p class="greetingtext">I'm an Engineer looking to improve my programming skills and build new and exciting projects. My goal is to become a capable fullstack developer</p>
+          </center>
         </div>
-        <br>
-        <br>
-        <hr>
-    </div>
+      </div>
+    </section>
 
-
-    <div class="MiddleContainer">
-        <div id="skills">
-            <h2 class="middleheadertext">My Skills</h2>
-
-            <div class="skill-row">
-                <img class="javagif" src="https://i.giphy.com/media/XH9wwXfUXu91wAJwN5/giphy.webp" alt="Javascript">
-                <img class="cssgif" src="https://i.giphy.com/media/fsEaZldNC8A1PJ3mwp/giphy.webp" alt="CSS Gif">
-                <img class="htmlgif" src="https://i.giphy.com/media/XAxylRMCdpbEWUAvr8/giphy.webp" alt="HTML Gif">
-                <h3 class="languagetext">Languages</h3>
-                <p class="languagetext2">HTML, CSS, Javascript</p>
-                <br>
-                <br>
-                <br>
-                <hr>
-            </div>
-
-            <div class="skill-row">
-                <img class="reactgif" src="https://i.giphy.com/media/eNAsjO55tPbgaor7ma/giphy.webp" alt="react gif">
-                <img class="bootstrapgif" src="https://i.giphy.com/media/Sr8xDpMwVKOHUWDVRD/giphy.webp" alt="bootstrap gif">
-                <!--<img class="nodegif" src="Images/node.gif" alt="node.js gif">-->
-                <h3 class="frameworktext">Frameworks</h3>
-                <p>Bootstrap, React</p>
-            </div>
-
-            <hr>
-
-            <div class="skill-row">
-                <img class="vscgif" src="https://i.giphy.com/media/IdyAQJVN2kVPNUrojM/giphy.webp" alt="vsc gif">
-                <img class="gitgif" src="https://i.giphy.com/media/kH1DBkPNyZPOk0BxrM/giphy.webp" alt="Git gif">
-                <img class="githubgif" src="https://i.giphy.com/media/KzJkzjggfGN5Py6nkT/giphy.webp" alt="Github gif">
-                <h3 class="tooltext">Tools</h3>
-                <p class="tooltext2">Visual Studio Code, Git, Github</p>
-            </div>
-
+    <section id="info">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 .no-gutters">
+          <img class="face" src="Images/face.jpg" alt="MY FACE" />
+          <br />
+          <center>
+            <h2>Hello there.</h2>
+          </center>
+          <p class="greetingtext">
+            I'm an Engineer looking to improve my programming skills and build
+            new and exciting projects. My goal is to become a capable fullstack
+            developer
+          </p>
         </div>
-        <br>
-        <hr>
-    </div>
+        <!-- <hr class="hrgreet" /> -->
+        <br />
+        <br />
+        <!-- <hr align="center" class="hr-styled" /> -->
+      </div>
+    </section>
 
+    <section id="skills">
+      <h2 class="skilltext">My Skills</h2>
+      <div class="container">
+        <div class="row">
+          <div class="feature-box col-lg-4 col-md-12">
+            <img
+              class="javagif"
+              src="https://i.giphy.com/media/XH9wwXfUXu91wAJwN5/giphy.webp"
+              alt="Javascript"
+            />
+            <img
+              class="cssgif"
+              src="https://i.giphy.com/media/fsEaZldNC8A1PJ3mwp/giphy.webp"
+              alt="CSS Gif"
+            />
+            <img
+              class="htmlgif"
+              src="https://i.giphy.com/media/XAxylRMCdpbEWUAvr8/giphy.webp"
+              alt="HTML Gif"
+            />
 
-    <div class="BottomContainer">
-        <center>
-            <h1 class="bottomheadertext">Projects</h1>
-        </center>
-        <img id="Projects" src="Images/coming-soon.jpg" alt="Coming soon sign">
-    </div>
+            <h3 class="languagetext">Languages</h3>
+            <p class="languagetext2">HTML, CSS, Javascript</p>
+            <hr />
+          </div>
 
+          <div class="feature-box col-lg-4">
+            <img
+              class="reactgif"
+              src="https://i.giphy.com/media/eNAsjO55tPbgaor7ma/giphy.webp"
+              alt="react gif"
+            />
+            <img
+              class="bootstrapgif"
+              src="https://i.giphy.com/media/Sr8xDpMwVKOHUWDVRD/giphy.webp"
+              alt="bootstrap gif"
+            />
+            <img
+              class="angulargif"
+              src="https://media4.giphy.com/media/XEDIHHp3i8bVoEdxd7/giphy.gif?cid=ecf05e47yx1itm0jd1wmtg5kof5gjsarqopyg19mqcq3hgs2&rid=giphy.gif&ct=s"
+              alt="angular gif"
+            />
 
-    <div class="ContactMe">
-        <h3>Get In Touch</h3>
-        <a class="btn" href="mailto:richardjattwell@gmail.com"><img class="emailicon" src="Images/email.png"
-                alt="emailicon"></a>
-        <a class="btn" href="https://github.com/RJAttwell" target="_blank" rel="noopener noreferrer"><img class="githubicon" src="Images/githubicon.png"
-                alt="Github Icon"></a>
-        <a class="btn" href="https://www.linkedin.com/in/richard-attwell-710570157/" target="_blank" rel="noopener noreferrer"><img class="linkedinicon"
-                src="Images/linkedin.png" alt="LinkedIn Icon"></a>
-        <br>
-        <hr class="contact-hr">
-        <br>
-        <p class="copyright-text">Copyright © RJAttwell.io 2022</p>
-    </div>
+            <br />
+            <br />
+            <h3 class="frameworktext">Frameworks and Libraries</h3>
+            <p class="frameworktext2">Bootstrap, React, Angular</p>
+            <hr />
+          </div>
 
-</body>
+          <div class="feature-box col-lg-4 col-md-12">
+            <br />
+            <br />
+            <img
+              class="vscgif"
+              src="https://i.giphy.com/media/IdyAQJVN2kVPNUrojM/giphy.webp"
+              alt="vsc gif"
+            />
+            <img
+              class="gitgif"
+              src="https://i.giphy.com/media/kH1DBkPNyZPOk0BxrM/giphy.webp"
+              alt="Git gif"
+            />
+            <img
+              class="githubgif"
+              src="https://i.giphy.com/media/KzJkzjggfGN5Py6nkT/giphy.webp"
+              alt="Github gif"
+            />
 
+            <h3 class="tooltext">Tools</h3>
+            <p class="tooltext2">Visual Studio Code, Git, Github</p>
+            <hr />
+          </div>
+        </div>
+      </div>
+      <br />
+    </section>
+
+    <section id="projects">
+      <center>
+        <h1 class="bottomheadertext">Projects</h1>
+      </center>
+      <img class="coming" src="Images/coming-soon.jpg" alt="Coming soon sign" />
+    </section>
+
+    <section id="ContactMe">
+      <h3>Get In Touch</h3>
+      <a class="btn" href="mailto:richardjattwell@gmail.com"
+        ><i class="fa-solid fa-envelope footer-icon"></i
+      ></a>
+
+      <a
+        class="btn"
+        href="https://github.com/RJAttwell"
+        target="_blank"
+        rel="noopener noreferrer"
+        ><i class="fa-brands fa-github footer-icon"></i
+      ></a>
+
+      <a
+        class="btn"
+        href="https://www.linkedin.com/in/richard-attwell-710570157/"
+        target="_blank"
+        rel="noopener noreferrer"
+        ><i class="fa-brands fa-linkedin footer-icon"></i
+      ></a>
+
+      <br />
+      <hr class="hrcontact" />
+      <br />
+      <p class="copyright-text">&copy; Copyright RJAttwell.io 2022</p>
+    </section>
+  </body>
 </html>
