@@ -17,16 +17,6 @@ hr{
   display: none;
 }
 
-/* .hrgreet{
-  margin: 1.2% 0% 5% 0%;
-  width: 50px;
-  border-top: 10px dotted #1b1b1b;
-  border-width: 8px;
-  opacity: 1;
-  background: transparent;
-  display: initial;
-} */
-
 .hrcontact{
   margin: 1.2% auto;
   width: 50px;
@@ -49,10 +39,6 @@ p {
 
 /* NAV BAR */
 
-#nav-bar{
-  text-align: center;
-}
-
 #navbar{
     background: none;
 }
@@ -73,22 +59,22 @@ p {
   text-shadow: -1px -1px 0 rgb(34, 34, 34), 1px -1px 0 rgb(34, 34, 34),
     -1px 1px 0 rgb(34, 34, 34), 1px 1px 0 rgb(34, 34, 34);
   font-family: "Fjalla One", sans-serif;
-  width: 20%;
+  margin: auto;
   position: relative;
-  bottom: 500px;
-  right: 300px;
-  font-size: 8.25em; /* If you use rem (root em) it'll ignore all other font-size and just use the value you put in front of rem */
+  bottom: 300px;
+  /* right: 300px; */
+  font-size: 7.25em; /* If you use rem (root em) it'll ignore all other font-size and just use the value you put in front of rem */
 }
 
 .div1text{
   text-shadow: -1px -1px 0 rgb(34, 34, 34), 1px -1px 0 rgb(34, 34, 34),
     -1px 1px 0 rgb(34, 34, 34), 1px 1px 0 rgb(34, 34, 34);
   
-  font-size: 3em;
+  font-size: 2.5em;
   font-family: "Fjalla One", sans-serif;
   position: relative;
-  bottom: 505px;
-  right: 105px;
+  bottom: 305px;
+  /* right: 105px; */
   color: #d36702;
 }
 
@@ -145,6 +131,7 @@ p {
 .frameworktext{
   font-weight: normal;
   font-size: 2.25em;
+  margin-top: 2px;
 }
 
 /* Projects Section */
