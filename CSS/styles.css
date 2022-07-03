@@ -1,0 +1,391 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+}
+
+hr{
+  margin: 5% auto;
+  width: 50px;
+  border-top: 10px dotted #1b1b1b;
+  border-width: 8px;
+  opacity: 1;
+  background: transparent;
+  display: none;
+}
+
+.hrcontact{
+  margin: 1.2% auto;
+  width: 50px;
+  border-top: 10px dotted #1b1b1b;
+  border-width: 8px;
+  opacity: 1;
+  background: transparent;
+  display: block;
+}
+
+h2,
+h3 {
+  font-family: "Fjalla One", sans-serif;
+  padding-top: 2%;
+}
+
+p {
+  font-family: "Fjalla One", sans-serif;
+}
+
+/* NAV BAR */
+
+#navbar{
+    background: none;
+}
+
+/* Title Section */
+
+#title {
+  padding: 30% 15% 7%;
+  background-image: url(https://vastphotos.com/files/uploads/photos/10301/night-landscape-photo-l.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+.topheadertext {
+  color: #d36702;
+  text-shadow: -1px -1px 0 rgb(34, 34, 34), 1px -1px 0 rgb(34, 34, 34),
+    -1px 1px 0 rgb(34, 34, 34), 1px 1px 0 rgb(34, 34, 34);
+  font-family: "Fjalla One", sans-serif;
+  margin: auto;
+  position: relative;
+  bottom: 300px;
+  /* right: 300px; */
+  font-size: 7.25em; /* If you use rem (root em) it'll ignore all other font-size and just use the value you put in front of rem */
+}
+
+.div1text{
+  text-shadow: -1px -1px 0 rgb(34, 34, 34), 1px -1px 0 rgb(34, 34, 34),
+    -1px 1px 0 rgb(34, 34, 34), 1px 1px 0 rgb(34, 34, 34);
+  
+  font-size: 2.5em;
+  font-family: "Fjalla One", sans-serif;
+  position: relative;
+  bottom: 305px;
+  /* right: 105px; */
+  color: #d36702;
+}
+
+/* Greetings Section */
+
+#info {
+  background-color: #ff9f45;
+  padding: 3% 12% 3%;
+  text-align: center;
+}
+
+.greetingtext {
+  top: 30px;
+  font-weight: normal;
+}
+
+/* Skills Section */
+
+#skills {
+  padding: 3% 15% 4%;
+  background-color: #e9dac1;
+}
+
+.middleheadertext {
+  color: #1b1b1b;
+  font-size: 2.5em;
+}
+
+.skilltext{
+  padding-bottom: 2%;
+}
+
+.languagetext{
+  font-weight: normal;
+  font-size: 2.25em;
+  margin-top: 25px;
+}
+
+.tooltext {
+  font-weight: normal;
+  font-size: 2.25em;
+  text-align: center;
+  position: relative;
+  bottom: 4px;
+}
+
+.tooltext2{
+  font-weight: normal;
+  text-align: center;
+  position: relative;
+  bottom: 5px;
+}
+
+.frameworktext{
+  font-weight: normal;
+  font-size: 2.25em;
+  margin-top: 2px;
+}
+
+/* Projects Section */
+
+#projects {
+  background-color: #ffe162;
+  padding: 7% 15%;
+  display: flex;
+  justify-content: center;
+}
+
+.bottomheadertext {
+  font-family: "Fjalla One", "Roboto", sans-serif;
+  font-size: 4em;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+
+.card1 {
+  display: grid;
+  height: 44vh;
+  width: 230px;
+
+  background: rgb(48, 45, 45);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+  font-family: roboto;
+  text-align: center;
+
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin: 30px;
+}
+
+.card2 {
+  height: 44vh;
+  width: 230px;
+
+  background: rgb(48, 45, 45);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+  font-family: roboto;
+  text-align: center;
+
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin: 30px;
+}
+
+.card3 {
+  display: grid;
+  height: 44vh;
+  width: 230px;
+
+  background: rgb(48, 45, 45);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+  font-family: roboto;
+  text-align: center;
+
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin: 30px;
+}
+
+.card4 {
+  display: grid;
+  height: 44vh;
+  width: 230px;
+
+  background: rgb(48, 45, 45);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+  font-family: roboto;
+  text-align: center;
+
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin: 30px;
+}
+
+.card1:hover,
+.card2:hover,
+.card3:hover,
+.card4:hover{
+  transform: scale(1.05);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+/* Contact Me Section */
+
+#ContactMe {
+  padding: 1.5% 10%;
+  margin: auto;
+}
+
+.copyright-text {
+  color: #acacac;
+}
+
+.footer-icon {
+  font-size: 35px;
+}
+
+.footer-icon:hover {
+  color: #acacac;
+  transform: scale(1.25);
+}
+
+/* IMAGE CLASSES */
+
+.face {
+  top: 40px;
+  border-radius: 100%;
+  border-style: outset;
+  border-color: #1b1b1b;
+  width: 20%;
+}
+
+.face:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+.Logo {
+  width: 20%;
+  position: relative;
+  right: 60px;
+}
+
+.coming {
+  width: 20%;
+  padding-top: 5%;
+}
+
+/* Languages Images */
+
+.javagif {
+  width: 20%;
+  margin-top: 10px;
+  margin-right: 7px;
+}
+
+.cssgif,
+.htmlgif {
+  width: 20%;
+}
+
+/* Frameworks/Libraries Images  */
+
+.bootstrapgif {
+  width: 20%;
+  margin-right: 15px;
+}
+
+.reactgif{
+  width: 20%;
+  margin-right: 15px;
+}
+
+.angulargif{
+  width: 19%;
+}
+
+/* Tools Images  */
+.vscgif {
+  margin-right: 33px;
+  width: 16%;
+  position: relative;
+  bottom: 35px;
+}
+
+.gitgif {
+  margin-right: 30px;
+  width: 23%;
+  position: relative;
+  bottom: 35px;
+}
+
+.githubgif {
+  width: 16%;
+  position: relative;
+  bottom: 35px;
+}
+
+/* Code that runs when our viewpoint is 1028px or smaller */
+@media (max-width: 1080px) {
+  
+  #title{
+    text-align: center;
+    background-image: url(https://vastphotos.com/files/uploads/photos/10300/high-resolution-night-landscape-photo-l.jpg) ;
+    background-size: cover;
+  }
+
+  .topheadertext{
+    font-size: 7em;
+    width: 100%;
+    position: relative;
+    bottom: 60px;
+    right: 10px;
+    margin: auto;
+  }
+
+  .div1text{
+    bottom: 40px;
+    right: 0.5px;
+    position: relative;
+  }
+
+  hr{
+    display: block;
+  }
+
+  .bottomheadertext{
+    font-size: 2em;
+  }
+
+
+}
+
+
+@Media (max-width: 450px){
+  #title{
+    text-align: center;
+    background-image: url(https://vastphotos.com/files/uploads/photos/10300/high-resolution-night-landscape-photo-l.jpg) ;
+    background-size: cover;
+    background-position: 500px 50px;
+}
+
+  hr{
+    display: block;
+  }
+
+}
+
+@media (max-width: 1020px) and (min-width: 1000px){
+    #skills{
+    padding: 3% 5% 3%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .card1, .card2, .card3, .card4 {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  #projects {
+    width: 100%;
+  }
+
+  .card1, .card2, .card3, .card4 {
+    width: 80%;
+  }
+}
