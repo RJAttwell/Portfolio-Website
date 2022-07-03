@@ -139,6 +139,8 @@ p {
 #projects {
   background-color: #ffe162;
   padding: 7% 15%;
+  display: flex;
+  justify-content: center;
 }
 
 .bottomheadertext {
@@ -146,8 +148,78 @@ p {
   font-size: 4em;
 }
 
-.coming:hover {
-  transform: scale(1.09);
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+
+.card1 {
+  display: grid;
+  height: 44vh;
+  width: 230px;
+
+  background: rgb(48, 45, 45);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+  font-family: roboto;
+  text-align: center;
+
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin: 30px;
+}
+
+.card2 {
+  height: 44vh;
+  width: 230px;
+
+  background: rgb(48, 45, 45);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+  font-family: roboto;
+  text-align: center;
+
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin: 30px;
+}
+
+.card3 {
+  display: grid;
+  height: 44vh;
+  width: 230px;
+
+  background: rgb(48, 45, 45);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+  font-family: roboto;
+  text-align: center;
+
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin: 30px;
+}
+
+.card4 {
+  display: grid;
+  height: 44vh;
+  width: 230px;
+
+  background: rgb(48, 45, 45);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+  font-family: roboto;
+  text-align: center;
+
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin: 30px;
+}
+
+.card1:hover,
+.card2:hover,
+.card3:hover,
+.card4:hover{
+  transform: scale(1.05);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
 }
 
 /* Contact Me Section */
@@ -278,7 +350,9 @@ p {
     font-size: 2em;
   }
 
+
 }
+
 
 @Media (max-width: 450px){
   #title{
@@ -291,10 +365,27 @@ p {
   hr{
     display: block;
   }
+
 }
 
 @media (max-width: 1020px) and (min-width: 1000px){
     #skills{
     padding: 3% 5% 3%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .card1, .card2, .card3, .card4 {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  #projects {
+    width: 100%;
+  }
+
+  .card1, .card2, .card3, .card4 {
+    width: 80%;
   }
 }
