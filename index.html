@@ -8,11 +8,16 @@
 
     <!--Add bootstrap to project-->
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
 
     <!--Add CSS to project-->
     <link rel="stylesheet" href="./styles.css" />
@@ -34,33 +39,43 @@
 
   <body>
     <section id="nav-bar">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark center">
+      <nav class="navbar navbar-expand-lg bg-dark ms-auto justify-content-center">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"
-            ><img
+          <a class="navbar-brand" href="#">
+            <img
               class="Logo"
               src="Images/Logo.png"
               alt="Orange square with RJ inside"
-          /></a>
+            />
+          </a>
           <button
             class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#skills"
-                >Skills</a
-              >
-              <a class="nav-link" href="#projects">Projects</a>
-              <a class="nav-link" href="https://docs.google.com/document/d/1DQt6QRXNBawYAFKyNqgqedWLOOUxOz5n3qigcWpWaDI/edit#" target="_blank">Resume</a>
-            </div>
+          <div class="collapse navbar-collapse ms-auto justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="https://docs.google.com/document/d/1DQt6QRXNBawYAFKyNqgqedWLOOUxOz5n3qigcWpWaDI/edit?usp=sharing"
+                  >Resume</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+            </ul>
           </div>
         </div>
       </nav>
@@ -147,8 +162,10 @@
             <br />
             <br />
             <h3 class="frameworktext">Frameworks and Libraries</h3>
-            <p class="frameworktext2">Bootstrap, React, Angular, jQuery</p>
-            
+            <p class="frameworktext2">
+              Bootstrap, React, Angular, jQuery, NodeJS, ExpressJS
+            </p>
+
             <hr />
           </div>
 
@@ -185,13 +202,41 @@
         <h1 class="bottomheadertext">Projects</h1>
 
         <ul class="projectsTable">
-          <li style="--i:6;"><a href="https://github.com/RJAttwell/GameRank">GameRank</a></li>
-          <li style="--i:5;"><a href="https://github.com/RJAttwell/Simon-Challenge">Simon Challenge</a></li>
-          <li style="--i:4;"><a href="https://github.com/RJAttwell/JavaScript/tree/main/Drum%20Kit">Drum Kit</a></li>
-          <li style="--i:3;"><a href="#">Coming Soon</a></li>
-          <li style="--i:2;"><a href="#">Coming Soon</a></li>
-		    </ul>
+          <li class="projectsItem" style="--i: 6"><a href="#">GameRank</a></li>
+          <li class="projectsItem" style="--i: 5">
+            <a href="https://github.com/RJAttwell/Simon-Challenge"
+              >Simon Challenge</a
+            >
+          </li>
+          <li class="projectsItem" style="--i: 4"><a href="#">Drum Kit</a></li>
+          <li class="projectsItem" style="--i: 3">
+            <a href="https://github.com/RJAttwell/Blog-Website">Blog Website</a>
+          </li>
+          <li class="projectsItem" style="--i: 2">
+            <a href="#">Coming Soon</a>
+          </li>
+        </ul>
 
+        <!-- <div class="row card-group mx-auto">
+            <div class="card1 col-3">
+              <div class="card-body">
+                <center><img class="card1image" src="pixel-art-video-game-joystick-8bit-icon-white-background_360488-236-removebg-preview.png" alt=""></center>
+                <a href="https://github.com/RJAttwell/GameRank" target="_blank" class="stretched-link"></a>
+              </div>
+            </div> 
+
+            
+              <div class="card2 col-3">
+                <div class="card-body">
+                  <center><img class="card2image" src="simonsays.png" alt=""></center>
+                  <a href="https://github.com/RJAttwell/Simon-Challenge" target="_blank" class="stretched-link"></a>
+                </div>
+              </div>
+            
+            <div class="card3 col-3"></div>
+
+            <div class="card4 col-3"></div>
+      </div> -->
       </center>
     </section>
 
@@ -223,12 +268,10 @@
       <p class="copyright-text">&copy; Copyright RJAttwell.io 2022</p>
     </section>
 
-   <!--Add javascript to project-->
+    <!--Add javascript to project-->
     <script src="index.js"></script>
 
-
-   <!-- Add jQuery to project -->
+    <!-- Add jQuery to project -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    
   </body>
 </html>
