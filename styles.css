@@ -173,13 +173,6 @@ p {
   margin-bottom: 4%;
 }
 
-/* .row {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-flow: wrap;
-} */
-
 .featurette {
   margin-bottom: 10%;
 }
@@ -195,7 +188,7 @@ p {
 #ContactMe {
   padding: 1.5% 10%;
   margin: auto;
-  height: 35vh;
+  height: auto;
 }
 
 .copyright-text {
